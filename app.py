@@ -50,10 +50,10 @@ def main():
 
         # connect to database
         pgconn = psycopg2.connect(
-            host = 'localhost', 
+            host = '', #pgadmin4 server
             database = 'postgres',
-            user = 'sudaishaleem',
-            password = ''
+            user = '', #username
+            password = '' #password of server
         )
 
         # create cursor
